@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Home`}
+      description="The official documentation for ScratchTools, a free and open-source browser extension for Scratch.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
