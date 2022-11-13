@@ -13,5 +13,5 @@ Once the popup opens, you can easily browse through the list of over 95 features
 
 <img width="150" alt="ScratchTools settings popup" src="https://user-images.githubusercontent.com/86856959/201549974-bb837e6d-0b32-4779-ae68-bb6fee86ccef.png">
 
-## Start Using
+## Get Started!
 Now, you can easily use the Scratch website with all of the features you've just enabled! Remember- you can always go back and change your settings whenever you want to!
