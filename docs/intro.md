@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Welcome to the ScratchTools Official Documentation
+# Welcome
 ScratchTools is a browser extension that works to make Scratch better for all Scratchers! We're the fastest-growing Scratch browser extension, and we're community-run, too!
 
 If you want to know more or if there's something specific you want to learn about, browse through the docs or ask our developers something on our [community Discord server](https://scratchtools.app/discord)!
