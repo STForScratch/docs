@@ -30,6 +30,11 @@ In the `/features/features.json` file of your fork, you're going to add the info
 Go back to compare your fork with [the main repository](https://github.com/STForScratch/ScratchTools/compare) and open a pull request, comparing across forks. Make sure that the base repository is the original ScratchTools, and the one you're comparing to is your fork. Then, open a pull request. Make sure that your pull request accurately describes your changes, that way our developers can easily test it, and eventually merge it.
 ## Additional Feature Parameters
 There are some additional parameters that you can add to your feature's description, if applicable.
+:::caution
+
+When dealing with feature descriptions and information, make sure that it stays in the correct format.
+
+:::
 ### `dynamic` (boolean)
 "Dynamic" features are features that can be enabled and disabled smoothly, without the user having to reload the page. That means that the feature can clean up after itself when it gets the signal to. In the feature description, `dynamic` can either be `true` or `false`. The default is `false`. If your feature is dynamic, then somewhere in your feature's code, there has to be the disable function. It looks like this:
 ```
