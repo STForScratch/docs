@@ -16,3 +16,11 @@ Here are some popular ways that people like to contribute:
 - Writing for the docs
 
 You can find out how to contribute to a specific part of ScratchTools [here](https://docs.scratchtools.app/docs/category/contributing).
+
+### Guidelines
+ScratchTools is a browser extension for Scratchers. Please make sure that whenever you contribute, you are making sure:
+- You are being appropriate (this also means keeping your language mostly)
+- You are not making joke issues/pull requests (our developers are taking time out of their days to contribute)
+- You are being kind (don't insult people if they don't do a great job)
+- You are being respectful (be welcoming and empathetic towards others)
+- You are using common sense (if there's something that isn't on here but should be, please follow it)
