@@ -13,7 +13,7 @@ Yes, we do have social media!! Here are our socials, ranked based on how activel
 3. [YouTube](https://www.youtube.com/channel/UCYZiKwxZ_8gJaMwbxHmP0KA)
 4. [postIt](https://postit.gantzos.com/ScratchTools/)
 5. [Twitter](https://twitter.com/ST_ForScratch)
-## Is ScratchTools the same thing as Scratch Addons?
+### Is ScratchTools the same thing as Scratch Addons?
 No, both are browser extensions for Scratch, but have different features and functionalities. Both are compatible for the most part though, so there's no downside to having both installed.
 ## Security
 ### Are we safe?
