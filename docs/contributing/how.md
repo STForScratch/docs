@@ -15,4 +15,4 @@ Here are some popular ways that people like to contribute:
 - Making videos/posts about ScratchTools
 - Writing for the docs
 
-You can find out how to contribute to a specific part of ScratchTools [here](https://docs.scratchtools.app/docs/contributing).
+You can find out how to contribute to a specific part of ScratchTools [here](https://docs.scratchtools.app/docs/category/contributing).
