@@ -28,3 +28,24 @@ In the `/features/features.json` file of your fork, you're going to add the info
  ```
 ### Open a Pull Request
 Go back to compare your fork with [the main repository](https://github.com/STForScratch/ScratchTools/compare) and open a pull request, comparing across forks. Make sure that the base repository is the original ScratchTools, and the one you're comparing to is your fork. Then, open a pull request. Make sure that your pull request accurately describes your changes, that way our developers can easily test it, and eventually merge it.
+## Additional Feature Parameters
+There are some additional parameters that you can add to your feature's description, if applicable.
+### `dynamic` (boolean)
+"Dynamic" features are features that can be enabled and disabled smoothly, without the user having to reload the page. That means that the feature can clean up after itself when it gets the signal to. In the feature description, `dynamic` can either be `true` or `false`. The default is `false`. If your feature is dynamic, then somewhere in your feature's code, there has to be the disable function. It looks like this:
+```
+ScratchTools.setDisable("Name of the Feature's File Without the '.js'", function() {
+    // code for removing the feature's changes to the page go here
+})
+```
+The code inside should undo all changes that the feature has made to the page. This includes elements or CSS that the feature has added.
+### `options` (object)
+If your feature needs a user input from the settings page (such as the Custom Website Font) feature, then this will allow you to set the options/settings that the user should add. You can have an infinite amount, although they do display on the settings page, and the feature may not be accepted if it has too many. It currently only supports text input, but soon will accept more. This parameter is an array, so you can use it like this:
+```
+...
+"options":["First Name", "Last Name", "Favorite Animal"]
+...
+```
+### `warning` (string)
+If your feature has something that users should know about (such as recent changes to user interface or possible mistakes users might make) then you should add a warning. The warning is a simple string that will display right next to the feature when on the settings page.
+### `world` (string)
+In ScratchTools, there are two worlds where scripts can be run. There's the `MAIN` world, and the `ISOLATED` world. The `MAIN` world has access to many API's, including the ScratchTools API. The `ISOLATED` world has access to the Chrome API, such as storage or tabs. `world` defaults to `MAIN`. We strongly advise that you stick to the `MAIN` world, because many features of the Chrome API already exist in the ScratchTools API.
