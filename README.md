@@ -1,19 +1,7 @@
-# Docusaurus 2
+# ScratchTools Docs
+ScratchTools is a browser extension that works to make Scratch better for all Scratchers! We're the fastest-growing Scratch browser extension, and we're community-run, too!
 
-This directory is a brief example of a [Docusaurus](https://v2.docusaurus.io) site that can be deployed to Vercel with zero configuration.
+If you want to know more or if there's something specific you want to learn about, browse through the docs or ask our developers something on our [community Discord server](https://scratchtools.app/discord)!
 
-## Deploy Your Own
-
-Deploy your own Docusaurus project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/docusaurus-2&template=docusaurus-2)
-
-_Live Example: https://docusaurus-2-template.vercel.app_
-
-### How We Created This Example
-
-To get started with Docusaurus on Vercel, you can use the [Docusaurus CLI](https://v2.docusaurus.io/docs/installation#scaffold-project-website) to initialize the project:
-
-```shell
-npx create-docusaurus@latest my-website classic
-```
+## Contributing to the Docs
+It's simple and easy to contribute to the documentation- just as easy as it is to contribute to ScratchTools! To contribute to the docs, go to [the official repository](https://github.com/stforscratch/docs).
