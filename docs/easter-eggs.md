@@ -18,6 +18,3 @@ sidebar_position: 7
 This easter egg was deprecated in v2.18.0 and is no longer functional.
 
 :::
-
-
-Credits: [misty](https://github.com/mistysloth/)
