@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'https://cdn.glitch.global/cb2bf217-ffc5-4d43-a8ef-956942c7aa4d/favicon.png?v=1655008522709',
+  favicon: 'https://github.com/STForScratch/ScratchTools/blob/main/extras/icon128.png?raw=true',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -60,7 +60,7 @@ const config = {
         title: 'ScratchTools Docs',
         logo: {
           alt: 'ScratchTools Logo',
-          src: 'https://cdn.glitch.global/cb2bf217-ffc5-4d43-a8ef-956942c7aa4d/favicon.png?v=1655008522709',
+          src: 'https://github.com/STForScratch/ScratchTools/blob/main/extras/icon128.png?raw=true',
         },
         items: [
           {
