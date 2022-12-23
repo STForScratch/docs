@@ -15,3 +15,5 @@ Go to the [Chrome Web Store page](https://chrome.google.com/webstore/detail/scra
 Go to the [Firefox Add-Ons page](https://addons.mozilla.org/en-US/firefox/addon/scratchtools/) for ScratchTools, and click "Add to Firefox". You may have to confirm. After this, ScratchTools will be added to your Firefox browser, there for you to use!
 ## Microsoft Edge
 Go to the [Microsoft Edge Add-ons page](https://microsoftedge.microsoft.com/addons/detail/scratchtools/aaidjeidbnhpjhblbianjeghjopbimmk) for ScratchTools, and click "Get". You may have to confirm. After this, ScratchTools will be added to your Microsoft Edge browser, there for you to use!
+## The Developer Way
+If you'd like to make code changes and contribute, you can [download and install the beta from GitHub](https://docs.scratchtools.app/docs/beta) to make modifying the code and testing easier.
