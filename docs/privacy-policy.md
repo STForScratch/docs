@@ -10,7 +10,7 @@ All data that ScratchTools uses is purely enhance your experience with ScratchTo
 - No analytics
 We don't track who is using what features, or the usernames of any users that are using the extension.
 - No personal information is ever shared
-We don't share account tokens or other personal information with ANYBODY- not even our own website.
+We don't share account tokens or other personal information with ANYBODY - not even our own website.
 - We only interact with Scratch
 ScratchTools doesn't affect or change the contents of any websites other than the main Scratch website.
 
