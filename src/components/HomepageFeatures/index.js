@@ -17,7 +17,7 @@ const FeatureList = [
     Png: 'https://stforscratch.github.io/data/vscode.png',
     description: (
       <>
-        Everything is simple when it comes to making changes- all our code is in HTML, CSS, and Javascript!
+        Everything is simple when it comes to making changes - all our code is in HTML, CSS, and JavaScript!
       </>
     ),
   },

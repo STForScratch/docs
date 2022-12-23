@@ -23,7 +23,7 @@ No, both are browser extensions for Scratch, but have different features and fun
 ### Are we safe?
 Yes, ScratchTools is constantly being checked for security vulnerabilities so that we can protect our users. If an issue is ever found (which there rarely is one), then we immediately work on a fix and send it out to users usually in under a week. We take the security of our users very seriously.
 ### How to report a security vulnerability
-If you've found a security vulnerability- please don't share it with anyone other than ScratchTools, and don't do so publicly. Please [fill out our security bug form](https://scratchtools.app/bugs/) so that we can work to fix it.
+If you've found a security vulnerability, please don't share it with anyone other than ScratchTools, and don't do so publicly. Please [fill out our security bug form](https://scratchtools.app/bugs/) so that we can work to fix it.
 ## Contributing
 ### How to Contribute
 You can contribute in many different ways:
