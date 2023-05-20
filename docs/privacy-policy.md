@@ -21,3 +21,5 @@ Here are the only websites that the extension interacts with via your browser:
 - [Aviate](https://aviateapp.eu.org) (only if you have the feature enabled)
 - [Google Fonts](https://fonts.google.com)
 - [Glitch](https://glitch.com)
+- [Gantzos](https://gantzos.com) (only if you use Unlisted Projects)
+- ImgBB

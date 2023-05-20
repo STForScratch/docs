@@ -7,31 +7,45 @@ It's simple and easy to contribute to ScratchTools. Most people, when contributi
 ## What Makes a Feature, a Feature?
 A ScratchTools feature is a special tool that can be easily enabled/disabled from the ScratchTools settings. It makes Scratch even better, and users can use the feature to create Scratch projects or interact with the Scratch website.
 ## How to Make a Feature
-### 1. Download ScratchTools from GitHub
-Start by [Downloading and installing the source code from GitHub](https://docs.scratchtools.app/docs/beta). This will make modifying the code and testing it much easier.
-### 2. Add Your Feature's File
-In the `/features/` folder of the source code, create a new file. The file extension should be `.js` (this is a JavaScript file). Make sure the name of the file is relevant to the feature that you're making, and that it doesn't exist yet. Put all of your code for the feature there. If a person has your feature enabled, this will run. If you want to access special parts of Scratch, such as the editor APIs or the user info, you can use the [ScratchTools API](https://docs.scratchtools.app/docs/category/api). If you don't know how to access a page's contents and change them using JavaScript, you can use this super simple and easy [tutorial](https://www.javascripttutorial.net/javascript-dom/) that many of our own developers used.
-### 3. Add Your Feature's Info
-In the `/features/features.json` file, you're going to add the information for your feature. Directly below the very first "\[" at the very top, add the following, customized to represent your own feature:
+### 1. Fork the Repository
+Start by [forking the official ScratchTools repository and installing it](https://docs.scratchtools.app/docs/beta). This is where all the code is, and you will be making changes in your fork. Please make sure to name it something appropriate and relevant.
+### 2. Add Your Feature's Data
+Now that you have your very own fork, you can create a new folder for your very own feature. Name it according to what it does. For example, if your feature changes the background color of the Scratch website, name it `background-color`.
+
+Inside of the new folder, create a file called `data.json`. You'll store all important information here about what your feature does and such. Here's an example of the file:
 ```
 {
-    "title": "Title of Your Feature",
-    "description": "Description of Your Feature",
-    "credits": ["Your Username"],
-    "urls": [
-      "Link to Your Profile"
-    ],
-    "file": "Name of Your Feature's File Without the '.js'",
-    "type": ["'Editor' or 'Website', Depending on What Your Feature is For"],
-    "tags": ["New"]
+	"title": "My New Feature",
+	"description": "This feature does stuff.",
+	"credits": [
+		{ "username": "My Username", "url": "Link to my profile" }
+	],
+	"type": ["Either website or editor"]
+}
+```
+
+There's a `.json` file inside of the `/features/` folder. It's called `features.json`. Go to the file, and add something to the top of the file, right after the first bracket. It should say this:
+```
+{
+	"version": 2,
+	"id": "name of the folder that you made for your feature"
 },
- ```
-## How to Contribute Your Feature
-### 1. Fork the Repository
-Start by [forking the official ScratchTools repository](https://github.com/STForScratch/ScratchTools/fork). This is where all the code is, and you will be making changes in your fork. Please make sure to name it something appropriate and relevant.
-### 2. Add Your Feature
-Follow steps 2-3 under [How to Make a Feature](https://docs.scratchtools.app/docs/contributing/building-a-feature#how-to-make-a-feature). It's a good idea to test out your changes as well.
-### 3. Open a Pull Request
+```
+
+### 3. Add the Code
+Create a file with the code for your feature. It can either be a CSS file or a JS file, depending on what you're making. Make sure that the file is within the folder you made for your feature.
+
+#### For JS Files
+In the `data.json` file, add a new key to the bottom of the JSON:
+`"scripts": ["name of .js file"]`
+
+#### For CSS Files
+In the `data.json` file, add a new key to the bottom of the JSON:
+`"styles": ["name of .css file"]`
+
+Now, just write your code. That's it!
+
+### 4. Open a Pull Request
 Go back to compare your fork with [the main repository](https://github.com/STForScratch/ScratchTools/compare) and open a pull request, comparing across forks. Make sure that the base repository is the original ScratchTools, and the one you're comparing to is your fork. Then, open a pull request. Make sure that your pull request accurately describes your changes, that way our developers can easily test it, and eventually merge it.
 ## Additional Feature Parameters
 There are some additional parameters that you can add to your feature's description, if applicable.
