@@ -8,7 +8,7 @@ It's simple and easy to contribute to ScratchTools. Most people, when contributi
 A ScratchTools feature is a special tool that can be easily enabled/disabled from the ScratchTools settings. It makes Scratch even better, and users can use the feature to create Scratch projects or interact with the Scratch website.
 ## How to Make a Feature
 ### 1. Fork the Repository
-Start by [forking the official ScratchTools repository and installing it](https://github.com/STForScratch/docs/blob/main/docs/beta.md#downloading-fork). This is where all the code is, and you will be making changes in your fork. Please make sure to name it something appropriate and relevant.
+Start by [forking the official ScratchTools repository and installing it](https://docs.scratchtools.app/docs/beta#downloading-fork). This is where all the code is, and you will be making changes in your fork. Please make sure to name it something appropriate and relevant.
 ### 2. Add Your Feature's Data
 Now that you have your very own fork, you can create a new folder for your very own feature. Name it according to what it does. For example, if your feature changes the background color of the Scratch website, name it `background-color`.
 
