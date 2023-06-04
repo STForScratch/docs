@@ -5,7 +5,7 @@ authors: scatt
 tags: [features, update]
 ---
 
-Are you an avid user of Scratch, the popular block coding website? If so, we have some exciting news for you! ScratchTools, the ultimate browser extension designed exclusively for Scratch, has just released a brand new feature that will enhance your Scratch experience like never before. Now, you can easily see which Scratch users are online, connecting you with a vibrant community of fellow coders and creators.
+We have some exciting news for you! ScratchTools, the ultimate browser extension designed exclusively for Scratch, has just released a brand new feature that will enhance your Scratch experience like never before. Now, you can easily see which Scratch users are online, connecting you with a vibrant community of fellow coders and creators.
 
 ## The Online Status Feature
 
