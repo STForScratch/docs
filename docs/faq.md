@@ -39,4 +39,4 @@ If you have a bug to report, you can [fill out our feedback form](https://scratc
 
 If you're interested in building a feature, check out [this article](https://github.com/STForScratch/ScratchTools/wiki/Contributing#building-a-feature). If you're interested in translating, check out [this one](https://github.com/STForScratch/ScratchTools/wiki/Contributing#translating).
 # How can I build a feature?
-If you're interested in building a feature, check out [this article](https://github.com/STForScratch/ScratchTools/wiki/Contributing#building-a-feature). If you need help from our developers, [open an issue](https://github.com/STForScratch/ScratchTools/).
+If you're interested in building a feature, check out [this article](https://github.com/STForScratch/ScratchTools/wiki/Contributing#building-a-feature). If you need help from our developers, [open an issue](https://github.com/STForScratch/ScratchTools/issues/new/choose).
