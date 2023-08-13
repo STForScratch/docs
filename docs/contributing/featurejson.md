@@ -21,6 +21,7 @@ The file path always matches this: `/features/*/data.json`. It should be directl
  "resources": [
     { "name": "my-resource", "path": "/resource.svg" }
   ],
+  "options": [{ "id": "option-id", "name": "My Option", "type": 1 }],
  "scripts": [{ "file": "script.js", "runOn": "/" }],
  "styles": [{ "file": "style.css", "runOn": "/" }]
 }
@@ -52,5 +53,14 @@ This decides whether or not the feature should be enabled by default when you in
 This is an array object. They are resources that your feature can access via userscripts and userstyles. You can use them to access images, videos, sounds, etc.
 
 Each item contains a name, which is important to be able to access it from a userscript/userstyle. Each one also contains a path, relative to the feature's folder, minus the "/" at the end.
+### options
+Options allow additional customization from the settings page. Dynamic features can also add listeners for when settings are changed. Every option should have an ID, which the feature userscripts use to get the option's value, set by the user.
+
+The option's name displays on the settings page. Unlike the option's ID, the name can be changed without affecting the user's settings. The type decides what kind of input/option it is. Here's what each type corresponds to:
+
+0. Text (string)
+1. Checkbox (boolean)
+2. Number (number)
+3. Color (string)
 
 *Userstyles and userscripts are discussed in a separate section.*
