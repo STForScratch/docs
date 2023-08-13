@@ -7,7 +7,7 @@ sidebar_position: 2
 ScratchTools uses JSON files to describe how a feature works, what it does, and how it should display on the settings page next to the rest of the features. It's a very important file, and features don't work without them.
 
 The file path always matches this: `/features/*/data.json`. It should be directly within the folder that matches your feature's ID, which is within the features folder. Here's what a sample `data.json` file looks like, taken from the "More News" feature (with some additional keys added):
-```
+```json
 {
  "title": "More Scratch News",
  "description": "On the main page, scroll through the Scratch News section and load more results.",
