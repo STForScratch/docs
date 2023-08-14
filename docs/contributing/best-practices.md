@@ -31,3 +31,29 @@ Instead, use other selectors that aren't specific to the hash. Here's an example
 ```
 
 :::
+
+## Put "ste" before class names on added elements
+Many ScratchTools features create new elements. Because of this, it's very important for compatability with Scratch, other features, and other extensions that we name the classes of new elements accordingly.
+
+For all added elements, their class names (if any) should begin with `ste` except for when mimicking a Scratch class name.
+
+## Don't use innerHTML
+Using the `innerHTML` attribute on elements can lead to XSS vulnerabilities and is just generally a bad idea. Instead, create other elements within the element.
+
+:::dangerInstead of this
+
+```js
+element.innerHTML = '<h1>Hello!</h1>'
+```
+
+:::
+
+:::tipTry this
+
+```js
+let h1 = document.createElement("h1")
+h1.textContent = "Hello!"
+element.appendChild(h1)
+```
+
+:::
