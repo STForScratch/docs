@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
 ---
-# Privacy policy
+# Privacy Policy
 Privacy is very important to ScratchTools. Our goal when it comes to privacy is to provide the best features for you to use, while finding ways to do so that preserve your online privacy and safety.
 
 :::noteImportant Reference
