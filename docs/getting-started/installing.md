@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Installing
+# Quick start
 You can easily install ScratchTools from Chrome, Firefox, or Microsoft Edge.
 :::caution
 
