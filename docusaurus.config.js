@@ -102,7 +102,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/ST_ForScratch',
+                href: 'https://twitter.com/STForScratch',
               },
             ],
           },
