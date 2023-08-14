@@ -25,5 +25,6 @@ let wait = ScratchTools.waitForElements("div.thumbnail.project", function(elemen
 setTimeout(function() {
     // You can even remove it! New elements matching the selector will no longer run the callback.
     wait.remove()
+    // Rarely is there a reason to remove it, but it's here if needed.
 }, 1000)
 ```
