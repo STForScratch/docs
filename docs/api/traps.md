@@ -81,3 +81,59 @@ Many or all of the features listed use the deprecated API for reaching Blockly. 
 </table>
 
 _Last updated: ScratchTools v3.1.1_
+
+## feature.traps.gui
+
+This is a function that returns the Scratch editor GUI, which hosts the virtual machine, important project data, and more.
+
+### Features using the API
+:::caution
+
+Many or all of the features listed use the deprecated API for reaching the GUI. Do not reference their code when using the API for reasons other than compatability.
+
+:::
+<table>
+<tr><td><b>Feature ID</b></td><td><b>Use case</b></td></tr>
+<tr>
+<td>move-project-title-input</td>
+<td>Set the title input to the project's title.</td>
+</tr>
+<tr>
+<td>start-stop-hotkeys</td>
+<td>Check whether or not the project is running.</td>
+</tr>
+<tr>
+<td>slash-to-search</td>
+<td>Check whether or not the project is running.</td>
+</tr>
+<tr>
+<td>unlisted-projects</td>
+<td>Get the project ID.</td>
+</tr>
+</table>
+
+_Last updated: ScratchTools v3.1.1_
+
+## feature.traps.paint
+
+This is a function that returns the Scratch paint editor's API. It contains important information such as the selected shapes, opened modals, and more.
+
+### Features using the API
+:::caution
+
+Many or all of the features listed use the deprecated API for reaching the paint editor API. Do not reference their code when using the API for reasons other than compatability.
+
+:::
+<table>
+<tr><td><b>Feature ID</b></td><td><b>Use case</b></td></tr>
+<tr>
+<td>pause-audio</td>
+<td>Set the audio trimming and get the current time.</td>
+</tr>
+<tr>
+<td>echo-effect</td>
+<td>Add the echo effect to the current sound.</td>
+</tr>
+</table>
+
+_Last updated: ScratchTools v3.1.1_
