@@ -6,6 +6,12 @@ sidebar_position: 2
 
 The `feature.traps` API allows features to access important Scratch API's in the editor.
 
+:::tip
+
+When dealing with new traps API's, we highly recommend exposing the feature variable. You can do so by finding an editor feature that uses modules and adding `window.feature = feature` to it.
+
+:::
+
 ## feature.traps.vm
 
 This API allows features to access the virtual machine in the editor. Scratch's virtual machine manages running projects, and the API is also accessible from the GUI API.
