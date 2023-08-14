@@ -16,9 +16,10 @@ ScratchTools doesn't affect or change the contents of any websites other than th
 
 ### Third Parties
 Here are the only websites that the extension interacts with via your browser:
-- [Our Own Website](https://scratchtools.app)
+- [Our Own Website/Server](https://scratchtools.app)
 - [GitHub](https://github.com)
 - [Aviate](https://aviateapp.eu.org) (only if you have the feature enabled)
+- [YouTube](https://youtube.com) (only if you have the feature enabled)
 - [Google Fonts](https://fonts.google.com)
 - [Glitch](https://glitch.com)
 - [Gantzos](https://gantzos.com) (only if you use Unlisted Projects)
