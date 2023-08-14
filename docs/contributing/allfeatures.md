@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Adding to the `features.json` file
+# Adding to the features.json file
 Once you have your folder for the feature, you can add the feature to the settings page in the `/features/features.json` file. At the top of the array object in the file, add this:
 ```json
 {
