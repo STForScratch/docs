@@ -14,4 +14,4 @@ If you'd like to help test out the beta versions of ScratchTools, you can do so 
 
 ## Join the beta program
 Go to the [official ScratchTools beta site](https://scratchtools.zip) and click the "Enroll" button.
-![Example banner](./assets/beta-site.png)
+![Example banner](https://raw.githubusercontent.com/STForScratch/data/main/beta-site.png)
