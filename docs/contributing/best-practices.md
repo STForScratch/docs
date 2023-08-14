@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Best Practices
+# Best practices
 
 Lots of people contribute code to ScratchTools, meaning code quality is very important. Here are some of our best practices for features.
 
