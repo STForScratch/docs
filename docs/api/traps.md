@@ -53,3 +53,31 @@ _Last updated: ScratchTools v3.1.1_
 ## feature.traps.blockly
 
 The Blockly API controls the blocks workspace in the editor, and the blocks within the workspace itself.
+
+### Features using the API
+:::caution
+
+Many or all of the features listed use the deprecated API for reaching Blockly. Do not reference their code when using the API for reasons other than compatability.
+
+:::
+<table>
+<tr><td><b>Feature ID</b></td><td><b>Use case</b></td></tr>
+<tr>
+<td>add-last-option</td>
+<td>Get blocks to add context menu option.</td>
+</tr>
+<tr>
+<td>block-log</td>
+<td>Get recent Blockly events.</td>
+</tr>
+<tr>
+<td>collapse-blocks</td>
+<td>Get blocks to add context menu option.</td>
+</tr>
+<tr>
+<td>colored-comments</td>
+<td>Get editor comments and their parent blocks to set comment color.</td>
+</tr>
+</table>
+
+_Last updated: ScratchTools v3.1.1_
