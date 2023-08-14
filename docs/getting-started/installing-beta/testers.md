@@ -10,4 +10,8 @@ This method will not allow you to make changes to code. If you hope to contribut
 
 :::
 
-If you'd like to help test out the beta versions of ScratchTools, you can do so by joining the beta program.
+If you'd like to help test out the beta versions of ScratchTools, you can do so by joining the beta program. Here's how you do so.
+
+## Join the beta program
+Go to the [official ScratchTools beta site](https://scratchtools.zip) and click the "Enroll" button.
+![Example banner](./assets/beta-site.png)
