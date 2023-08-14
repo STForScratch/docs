@@ -13,7 +13,7 @@ This API allows features to access the virtual machine in the editor. Scratch's 
 ### Features using the API
 
 <table>
-<tr><td>Feature ID</td><td>Use</td></tr>
+<tr><td><b>Feature ID</b></td><td><b>Use case</b></td></tr>
 <tr>
 <td>start-stop-hotkeys</td>
 <td>Start and stop projects.</td>
