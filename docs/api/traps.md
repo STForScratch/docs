@@ -127,6 +127,30 @@ Many or all of the features listed use the deprecated API for reaching the paint
 <table>
 <tr><td><b>Feature ID</b></td><td><b>Use case</b></td></tr>
 <tr>
+<td>special-editor-fonts</td>
+<td>Set the font of the selected item.</td>
+</tr>
+<tr>
+<td>shared-clipboard</td>
+<td>Set and get the current clipboard data.</td>
+</tr>
+</table>
+
+_Last updated: ScratchTools v3.1.1_
+
+## feature.traps.sound
+
+This is a function that returns the Scratch sound editor's API. It contains important information and the ability to edit sounds.
+
+### Features using the API
+:::caution
+
+Many or all of the features listed use the deprecated API for reaching the sound editor API. Do not reference their code when using the API for reasons other than compatability.
+
+:::
+<table>
+<tr><td><b>Feature ID</b></td><td><b>Use case</b></td></tr>
+<tr>
 <td>pause-audio</td>
 <td>Set the audio trimming and get the current time.</td>
 </tr>
