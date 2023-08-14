@@ -12,7 +12,7 @@ You'll often find elements around the Scratch website that end with an underscor
 
 Instead, use other selectors that aren't specific to the hash. Here's an example:
 
-:::danger[Instead of this]
+:::dangerInstead of this
 
 ```css
 .share-button_share-button_Nxxf0 {
@@ -22,7 +22,7 @@ Instead, use other selectors that aren't specific to the hash. Here's an example
 
 :::
 
-:::tip[Try this]
+:::tipTry this
 
 ```css
 [class^="share-button_share-button"] {
