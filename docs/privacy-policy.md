@@ -45,9 +45,9 @@ We trust our support specialists, but they can't take any action on your extensi
 Here are the sites that we fetch from, why we do so, and the conditions on which we do. We also fetch data from Scratch's CDN (where images are hosted), API (where important data is hosted), main site, and their cloud data server.
 <table>
 <tr>
-<td>Domain</td>
-<td>Use</td>
-<td>Conditions</td>
+<td><b>Domain</b></td>
+<td><b>Use</b></td>
+<td><b>Conditions</b></td>
 </tr>
 <tr>
 <td>scratchtools.app</td>
