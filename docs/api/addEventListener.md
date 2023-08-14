@@ -18,7 +18,15 @@ export default async function ({ feature, console }) {
 ```
 
 ## Event: enabled
-Using the `enabled` event, dynamic features can detect when they are enabled. The event only fires if the feature was already dynamically disabled on the page. If it hasn't been, then the feature is injected. Here's an example:
+Using the `enabled` event, dynamic features can detect when they are enabled.
+
+:::info
+
+The `enabled` event only fires if the feature was already dynamically disabled on the page. If it hasn't been, then the feature is injected normally.
+
+:::
+
+Here's an example:
 ```js
 export default async function ({ feature, console }) {
     // Add listener.
