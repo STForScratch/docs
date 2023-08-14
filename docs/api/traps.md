@@ -11,7 +11,11 @@ The `feature.traps` API allows features to access important Scratch API's in the
 This API allows features to access the virtual machine in the editor. Scratch's virtual machine manages running projects, and the API is also accessible from the GUI API.
 
 ### Features using the API
+:::caution
 
+Many or all of the features listed use the deprecated API for reaching the virtual machine. Do not reference their code when using the API for reasons other than compatability.
+
+:::
 <table>
 <tr><td><b>Feature ID</b></td><td><b>Use case</b></td></tr>
 <tr>
