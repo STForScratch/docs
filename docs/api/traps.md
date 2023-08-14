@@ -13,7 +13,7 @@ This API allows features to access the virtual machine in the editor. Scratch's 
 ### Features using the API
 
 <table>
-<th><td>Feature ID</td><td>Use</td></th>
+<tr><td>Feature ID</td><td>Use</td></tr>
 <tr>
 <td>start-stop-hotkeys</td>
 <td>Start and stop projects.</td>
@@ -44,7 +44,7 @@ This API allows features to access the virtual machine in the editor. Scratch's 
 </tr>
 </table>
 
-*Last updated: ScratchTools v3.1.1*
+_Last updated: ScratchTools v3.1.1_
 
 ## feature.traps.blockly
 
