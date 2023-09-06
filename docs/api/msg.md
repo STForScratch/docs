@@ -14,22 +14,14 @@ export default async function ({ feature, console }) {
 ```
 In the example above, the span's text is now the translated string matched with the ID `online-text`. The value depends on the user's browser language.
 
-## Setting localization in data file
-In the feature's `data.json` file, you can specify important translations and strings that need to be translated for the feature.
-
+## Setting up localization strings
 :::note
 
 If a string isn't translated into a user's browser language, it defaults to English. The same is true on the settings page.
 
 :::
 
-Addition to the `data.json` file:
-```json
-    "translations": ["en"],
-```
-That's it! Just add that to the feature's `data.json` file. Now, you need to specify the specific languages.
-
-Start by creating a file within the feature's file. Name it `locales`. Then, create a file called `en.json` within it. Here's an example file based on the JavaScript example at the top:
+Start by creating a folder within `/feature-locales/`. Name it after the ID of the feature. Then, create a file called `en.json` within it. Here's an example file based on the JavaScript example at the top:
 ```json
 {
     "online-text": "Online"
