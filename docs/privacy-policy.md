@@ -13,7 +13,7 @@ When this policy references the Scratch website, it is referencing scratch.mit.e
 ## Overview
 
 1. Important account tokens aren't stored or shared outside of the Scratch website. Project tokens are shared with the servers behind the TurboWarp Button and Unlisted Projects features to allow them to work properly.
-2. We do not track who is using the extension. Web stores allow us to see how many users are using the extension, but we are unable to see who they are. We can't see how many people have specific features enabled. We **can** see how many users have ever used the Display Names, Online Statuses, and Emoji Statuses features.
+2. We do not track who is using the extension. Web stores allow us to see how many users are using the extension, but we are unable to see who they are. We can't see how many people have specific features enabled. We **can** see how many users have ever used the Display Names, Online Statuses, and Emoji Statuses features. We can occasionally see usernames when the extension is uninstalled, but it is only used for anti-spam purposes.
 
 ## Feedback and support centers
 The feedback center and support center allow us to view additional information when used. Here's what we can see/do:
