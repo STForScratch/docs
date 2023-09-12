@@ -6,6 +6,44 @@ sidebar_position: 6
 
 Lots of people contribute code to ScratchTools, meaning code quality is very important. Here are some of our best practices for features.
 
+## Format your code
+
+Readable code is extremely important. Make sure that all code is formatted correctly. We recommend using an extension such as [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) if you use Visual Studio Code when developing.
+
+There are also other extensions around, as well as websites that allow you to beautify code. Numerous websites exist for both JavaScript and CSS.
+
+Formatting code is extremely important for future development, and makes code much easier to understand.
+
+## Try not to remove vanilla Scratch elements
+
+It's generally not a good idea to remove original elements when unnecessary. This makes it difficult to make features dynamic, since recreating elements on the page could lead to localization issues.
+
+This practice only applies to elements already existing on the page, not created by the feature. However, it's also not a good idea to remove elements created by other features.
+
+Removing elements already existing from vanilla Scratch or from other features can cause things to break. For example, removing the stage from the editor can crash the editor.
+
+## Use comments
+
+When writing code, it's important to use comments when necessary. If you're writing code that may be misinterpreted or hard to understand in future development, add comments to explain what the code does or what it affects.
+
+JS:
+
+```js
+// Changes the color of the navigation bar on 3.0 pages
+let navigation = await ScratchTools.waitForElement("#navigation")
+navigation.style.backgroundColor = "var(--ste-blue)"
+```
+
+CSS:
+
+```css
+/* Changes the color of the navigation bar on 3.0 pages */
+
+#navigation {
+  background-color: var(--ste-blue);
+}
+```
+
 ## Don't select using hashed class names
 
 You'll often find elements around the Scratch website that end with an underscore and 5 characters made up of letters and numbers. Avoid using CSS/query selectors on those tags.
