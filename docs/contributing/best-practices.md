@@ -38,7 +38,6 @@ CSS:
 
 ```css
 /* Changes the color of the navigation bar on 3.0 pages */
-
 #navigation {
   background-color: var(--ste-blue);
 }
