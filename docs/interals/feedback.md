@@ -26,7 +26,7 @@ Feedback submitted via the extension includes multiple pieces of important infor
 
 :::info
 
-ScratchTools Developers are prohibited from reaching out via the Scratch website specifically in response to feedback. **Feedback responses will only be via the ScratchTools settings page.**
+ScratchTools Developers are prohibited from reaching out via the Scratch website specifically in response to feedback. **Feedback responses will only be via the ScratchTools settings page.** The only scenario in which a developer may contact you via your Scratch profile is if you were to submit feedback via the ScratchTools website and not the feedback center, leading the team to believe that you no longer have the extension installed. Even when reaching out via the Scratch website, developers will be intentionally ambiguous and won't refer directly to ScratchTools.
 
 :::
 
