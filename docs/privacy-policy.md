@@ -25,7 +25,7 @@ When you submit feedback, we can see:
 - Your Scratch username (we may respond to you via the ScratchTools extension, not on your Scratch profile).
 - Your enabled features (we can see what features you have enabled, but not specific options. *Example: we might know you have Custom Website Font enabled, but we don't know what font*).
 
-Our support specialists and developers should never contact you in response to feedback via your Scratch profile. They have other ways of alerting you via the extension.
+Our support specialists and developers should never contact you in response to feedback via your Scratch profile. They have other ways of alerting you via the extension. The only scenario in which a developer may contact you via your Scratch profile is if you were to submit feedback via the ScratchTools website and not the feedback center, leading the team to believe that you no longer have the extension installed. Even when reaching out via the Scratch website, developers will be intentionally ambiguous and won't refer directly to ScratchTools.
 
 ### Support center
 When you open the support center, we can see:
