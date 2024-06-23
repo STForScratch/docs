@@ -32,3 +32,110 @@
 .footer__copyright {
   display: none;
 }
+
+.hidden {
+  display: none !important;
+}
+
+ul.theme-doc-sidebar-menu.menu__list > li:last-child {
+  display: none;
+}
+
+.feature-info {
+  float: right;
+  width: 22rem;
+  max-width: 100%;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  padding: 0px;
+  border-radius: var(--ifm-pagination-nav-border-radius);
+  overflow: hidden;
+}
+
+.feature-info > div {
+  width: 100%;
+    height: 14rem;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: .5rem;
+}
+
+.feature-info td, .feature-info tr {
+  border: 0px;
+  vertical-align: top;
+}
+
+.feature-info td:first-child {
+  font-weight: bold;
+}
+
+table.split-content {
+  width: 100%;
+}
+
+table.split-content > tr, table.split-content > tr > td {
+  border: 0px;
+  vertical-align: top;
+}
+
+table.split-content > tr {
+    width: 100%;
+}
+
+table.split-content > tr > td:first-child {
+  width: 100%;
+}
+
+table.split-content, table.split-content > tr, table.split-content > tr > td {
+  padding: 0px;
+  margin: 0px;
+}
+
+table.split-content > tr > td:last-child {
+  padding-left: 2rem;
+}
+
+html[class*='docs-doc-id-features/'] div[class*='tableOfContents_node_modules'] {
+  display: none;
+}
+
+html[class*='docs-doc-id-features/'] article > nav {
+  display: none;
+}
+
+html[class*='docs-doc-id-features/'] nav.pagination-nav.docusaurus-mt-lg {
+  display: none;
+}
+
+html[class*='docs-doc-id-features/'] aside.theme-doc-sidebar-container {
+  display: none;
+}
+
+html[class*='docs-doc-id-features/'] main {
+  width: 100%;
+    max-width: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+main > div > div.row {
+  display: block;
+}
+
+main > div > div.row > div.col {
+  width: 100%;
+  max-width: none !important;
+}
+
+@media (max-width: 750px) {
+  table.split-content > tr > td:last-child {
+    display: none;
+  }
+
+  html[class*='docs-doc-id-features/'] main {
+    width: 100%;
+      max-width: none;
+      padding-left: 0%;
+      padding-right: 0%;
+  }
+}
