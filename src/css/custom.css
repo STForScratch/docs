@@ -95,6 +95,8 @@ table.split-content > tr > td:last-child {
   padding-left: 2rem;
 }
 
+/* Features */
+
 html[class*='docs-doc-id-features/'] div[class*='tableOfContents_node_modules'] {
   display: none;
 }
@@ -114,17 +116,50 @@ html[class*='docs-doc-id-features/'] aside.theme-doc-sidebar-container {
 html[class*='docs-doc-id-features/'] main {
   width: 100%;
     max-width: none;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* X */
+
+html[class*='docs-doc-id-x'] article > nav {
+  display: none;
+}
+
+html[class*='docs-doc-id-x'] aside.theme-doc-sidebar-container {
+  display: none;
+}
+
+html[class*='docs-doc-id-x'] main {
+  width: 100%;
+    max-width: none;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+html[class*='docs-doc-id-x'] nav.pagination-nav.docusaurus-mt-lg {
+  display: none;
+}
+
+/* main > div > div.row > div.col {
+  width: 100%;
+  max-width: none !important;
+} */
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  html[class*='docs-doc-id-features/'] main {
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+
+  html[class*='docs-doc-id-x'] main {
     padding-left: 10%;
     padding-right: 10%;
 }
-
-main > div > div.row {
-  display: block;
-}
-
-main > div > div.row > div.col {
-  width: 100%;
-  max-width: none !important;
 }
 
 @media (max-width: 750px) {
@@ -133,6 +168,13 @@ main > div > div.row > div.col {
   }
 
   html[class*='docs-doc-id-features/'] main {
+    width: 100%;
+      max-width: none;
+      padding-left: 0%;
+      padding-right: 0%;
+  }
+
+  html[class*='docs-doc-id-x'] main {
     width: 100%;
       max-width: none;
       padding-left: 0%;
