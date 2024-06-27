@@ -126,6 +126,35 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'O0A2BEPBQ0',
+  
+        // Public API key: it is safe to commit it
+        apiKey: 'c9e3a67f766f35dab46916562e977307',
+  
+        indexName: 'scratchtools',
+  
+        // Optional: see doc section below
+        contextualSearch: true,
+  
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+  
+        // Optional: Algolia search parameters
+        searchParameters: {},
+  
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+  
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        insights: false,
+  
+        //... other Algolia params
+      },
     }),
 };
 
